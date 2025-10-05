@@ -9,7 +9,7 @@ int main(){
     while(t--){
         string line; //declare string variable
         getline(cin, line); // input string
-        int len = line.size(); // findout lenght value of string
+        int len = line.size(); // findout length value of string
         for(int i=0; i<len; i++){
             char text = line[i]; // string character index
             if(isalpha(text)){ // checking alphabet
